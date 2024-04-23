@@ -1,11 +1,9 @@
 <template>
-  <div class="text-3xl font-bold underline">sokoban{{ map }}</div>
+  <Game></Game>
 
   </template>
 <script setup lang="ts">
-import {useMapStore} from './store/map.ts';
-const {map} = useMapStore();
-
+import Game from "../src/components/Game.vue"
 </script>
 
 
